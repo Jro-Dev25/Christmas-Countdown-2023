@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Mountains+of+Christmas:wght@400;700&family=Poppins:ital,wght@1,100&display=swap');
+        *, *::before, *::after {
+            padding: 0;
+            margin: 0;
+            box-sizing: border-box;
+        }
+
+        section {
+            background-color: red;
+            height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-family: 'Mountains of Christmas', serif;
+        }
+
+        .container {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+
+        .img-div {
+            max-width: 350px;
+        }
+        .img {
+            width: 100%;
+        }
+
+        .text-div {
+            margin: 0 30px;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 9vh;
+        }
+
+        h2 {
+            font-size: 4vh;
+            color: #000;
+        }
+
+        #countdown {
+            color: rgb(247, 247, 247)
+        }
+
+        .time {
+            font-size: 30px;
+            color: rgb(226, 193, 6);
+        }
+
+   
+        @media (max-width: 428px) {
+            section {
+                height: 100vh;
+
+            }
+
+            .container {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: space-between;
+                width: 100%;
+                text-align: center;
+            }
+           
+            h1 {
+            font-size: 7vh;
+           }
+
+           #year {
+             color: rgb(226, 193, 6);
+           }
+
+           h2 {
+            font-size: 3vh;
+           }
+
+        }
